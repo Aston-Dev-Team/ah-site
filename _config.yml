@@ -6,7 +6,7 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "https://mlh.github.io/mlh-hackathon-boilerplate"
+url: "https://astonhack.co.uk"
 
 # The ability to use custom themes.
 style:
@@ -14,24 +14,24 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: ""
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "AstonHack"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  title:       "AstonHack | 5/6 November 2016"
+  description: "Aston's student hackathon is back for its second year!"
+  image:       "http://astonhack.co.uk/astonhack.png"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
+  name:        "AstonHack"
+  description: "Aston's student hackathon is back for its second year!"
+  date:        "5 & 6 November 2016"
+  location:    "Aston University, Birmingham, UK"
 
   trust_badge:
     year:   "2017"  # season year
@@ -43,15 +43,13 @@ event:
       - text: "Apply"
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+          redirect_uri: "https://astonhack.co.uk/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:hack@astoncss.co.uk"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      AstonHack is back for its second year!
 
   # Info Sections
   info:
@@ -96,7 +94,7 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message: >
-      You'll receive more information closer to the hackathon.
+      Thanks for signing up - you'll hear more closer to the event!
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
