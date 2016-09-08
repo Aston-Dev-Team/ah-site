@@ -24,7 +24,7 @@ social:
 seo:
   title:       "AstonHack | 5/6 November 2016"
   description: "Aston's student hackathon is back for its second year!"
-  image:       "http://astonhack.co.uk/astonhack.png"
+  image:       "http://astonhack.co.uk/images/astonhack-logo-white.png"
 
 # Event information.
 event:
@@ -39,7 +39,7 @@ event:
     color:  "red" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
-    image: "/images/astonhack-logo-white.png"
+    image: "images/astonhack-logo-white.png"
     links:
       - text: "Apply"
         my_mlh:
