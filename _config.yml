@@ -6,7 +6,7 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "https://astonhack.co.uk"
+url: "http://spru.sr/ah-site"
 
 # The ability to use custom themes.
 style:
@@ -43,7 +43,7 @@ event:
       - text: "Apply"
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://astonhack.co.uk/success.html"
+          redirect_uri: "http://spru.sr/ah-site/success.html"
       - text: "Sponsor"
         href: "mailto:hack@astoncss.co.uk"
 
