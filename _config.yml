@@ -36,12 +36,12 @@ event:
   trust_badge:
     year:   "2017"  # season year
     region: "eu"    # "na" or "eu"
-    color:  "red" # "white", "black", "gray", "red", "blue" or "yellow"
+    color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
-    image: "images/astonhack-logo-white.png"
+    image: "images/astonhack-logo.svg"
     links:
-      - text: "Apply"
+      - text: "Sign up now!"
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "http://spru.sr/ah-site/success.html"
@@ -50,7 +50,9 @@ event:
 
   about:
     description: >
-      AstonHack is back for its second year!
+      # AstonHack is back for its second year!
+
+      This time we're opening up places for even more student hackers to enjoy 24 hours of designing, coding and making! We'll just provide the space, food, and _maybe_ even some swag...
 
   # Info Sections
   info:
@@ -95,6 +97,10 @@ event:
       answer: >
         Yes! We'd love for your company to sponsor, and help make this fantastic event possible!
         We would ask all potential sponsors to email us at hack [at] astoncss.co.uk and one of the team will get back to you.
+
+  footer:
+    message: >
+      We can't wait to see what you build!
 
   # This is the message you'll receive once you've registered.
   register:

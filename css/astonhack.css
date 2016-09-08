@@ -21,6 +21,7 @@
 
 body {
   background-color: rgb(53,53,53);
+  color: #333;
 }
 
 section {
@@ -35,7 +36,7 @@ section {
   display: block;
   max-width: 100px;
   min-width: 60px;
-  position: fixed;
+  position: absolute;
   right: 50px;
   top: 0;
   width: 10%;
@@ -55,7 +56,7 @@ section {
 }
 
 .hero img {
-  max-width: 400px;
+  width: 300px;
 }
 
 .hero hr {
@@ -87,7 +88,7 @@ section {
 .hero .buttons a {
   background: #fff;
   border-radius: 5px;
-  color: #000;
+  color: #333;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -100,7 +101,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #e97205;
+  background-color: rgb(229, 106, 29);
   color: #fff;
   transition: all 0.15s ease;
 }
@@ -121,7 +122,7 @@ section {
 }
 
 .about p {
-  color: #0F2C34;
+  color: #333;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -187,7 +188,7 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid #0F2C34;
+  border-top: 8px solid #333;
   margin: 20px 0;
   width: 80px;
 }
