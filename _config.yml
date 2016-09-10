@@ -51,25 +51,15 @@ event:
 
   about:
     description: >
-      # AstonHack is back for its second year!
+      # AstonHack is back!
 
       This time we're opening up places for even more student hackers to enjoy 24 hours of designing, coding and making! We'll just provide the space, food, and _maybe_ even some swag...
 
-  # Info Sections
-  info:
+  # Sponsors
+  sponsors:
     sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+#      - image: "images/sponsor1.png"
+      - description: "Soon to be announced!"
 
   # Frequently asked questions.
   faq:
@@ -90,7 +80,7 @@ event:
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-        We work with over 200 Member Events and empower over 70,000 students every year.
+        They work with over 200 Member Events and empower over 70,000 students every year.
     - question: "Is there a code of conduct?"
       answer: >
         Yes, we stick strongly to the MLH code of conduct. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
@@ -102,6 +92,8 @@ event:
   footer:
     message: >
       We can't wait to see what you build!
+    legal: >
+      &copy; 2016 AstonHack. Site by <a href="http://spru.sr">Scott Street</a>, based on <a href="https://github.com/MLH/mlh-hackathon-boilerplate">MLH Hackathon Boilerplate</a>.
 
   # This is the message you'll receive once you've registered.
   register:

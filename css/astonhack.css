@@ -99,8 +99,8 @@ section {
   transition: all 0.15s ease;
 }
 
-.hero .buttons a:hover,
-.hero .buttons a:focus {
+.hero .buttons a:hover/*,
+.hero .buttons a:focus*/ {
   background-color: rgb(229, 106, 29);
   color: #fff;
   transition: all 0.15s ease;
@@ -121,6 +121,12 @@ section {
   position: relative;
 }
 
+.about h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 30px 0;
+}
+
 .about p {
   color: #333;
   font-weight: 600;
@@ -139,10 +145,12 @@ section {
  */
 
 .info {
-  background-color: #fff;
-  margin-top: 15px;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/aston-campus.jpg');
+  background-size: cover;
+  background-position: center;
   padding: 100px 0;
   position: relative;
+  color: #fff;
 }
 
 .info .item {
@@ -165,12 +173,42 @@ section {
 }
 
 /*
+ * Sponsors
+ */
+
+.sponsors {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/aston-campus.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+  color: #fff;
+}
+
+.sponsors h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.sponsors .item {
+  padding: 20px;
+}
+
+.sponsors .item img {
+  max-width: 220px;
+}
+
+.sponsors .item p {
+  font-size: 20px;
+}
+
+/*
  * FAQ Section
  */
 
 .faq {
   background-color: #fff;
-  margin-top: 15px;
   padding: 100px 0;
   position: relative;
 }
@@ -211,6 +249,11 @@ section {
 .footer {
   color: #fff;
   padding: 30px 0;
+}
+
+.footer h1 {
+  font-family: 'Montserrat';
+  margin: 30px 0;
 }
 
 .footer img {
