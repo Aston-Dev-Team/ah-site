@@ -24,7 +24,7 @@ social:
 seo:
   title:       "AstonHack | 5/6 November 2016"
   description: "Aston's student hackathon is back for its second year!"
-  image:       "http://astonhack.co.uk/images/astonhack-logo-white.png"
+  image:       "https://astonhack.co.uk/images/ah-logo-mb-bg.png"
 
 # Event information.
 event:
@@ -43,8 +43,8 @@ event:
     links:
       - text: "Signups soon!"
 #        my_mlh:
-#          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-#          redirect_uri: "http://spru.sr/ah-site/success.html"
+#          client_id:    "226feade92a87974d0b8e94fa2e559dcbc33720e378222ea16e2e6c9ca608ab5"
+#          redirect_uri: "https://astonhack.co.uk/success.html"
         href: "#"
 #      - text: "Sponsor"
 #        href: "mailto:hack@astoncss.co.uk"
@@ -95,7 +95,7 @@ event:
     - question: "Can we sponsor AstonHack?"
       answer: >
         Yes! We'd love for your company to sponsor, and help make this fantastic event possible!
-        We would ask all potential sponsors to email us at hack [at] astoncss.co.uk and one of the team will get back to you.
+        We would ask all potential sponsors to email `hack [at] astoncss.co.uk` and one of the team will get back to you.
 
   footer:
     message: >
