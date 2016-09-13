@@ -248,7 +248,8 @@ section {
 
 @media(max-width: 1130px) {
   .footer-goose {
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     margin: 0 auto;
     padding-bottom: 40px;
   }
