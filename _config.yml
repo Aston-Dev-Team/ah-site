@@ -53,13 +53,21 @@ event:
     description: >
       # AstonHack is back!
 
-      This time we're opening up places for even more student hackers to enjoy 24 hours of designing, coding and making! We'll just provide the space, food, and _maybe_ even some swag...
+      This time we're opening up places for even more student hackers to enjoy 24 hours of designing, coding and making! Whether this will be your first hackathon or your 20th, AstonHack is great for all levels of experience!
 
   # Sponsors
   sponsors:
     sections:
 #      - image: "images/sponsor1.png"
       - description: "Soon to be announced!"
+
+  # Partners
+  partners:
+    sections:
+      - image: "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg"
+        link: "https://mlh.io/"
+      - image: "images/acss-logo.png"
+        link: "http://astoncss.co.uk/"
 
   # Frequently asked questions.
   faq:

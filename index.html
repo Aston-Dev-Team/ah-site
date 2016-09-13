@@ -19,8 +19,23 @@ layout: default
       {% for section in site.event.sponsors.sections %}
         <div class="col-xs-12 col-sm-4 col-centered text-center">
           <div class="item text-center">
+            {% if section.link %}<a href="{{ section.link }}">{% endif %}
             {% if section.image %}<img src="{{ section.image }}" />{% endif %}
             {% if section.description %}<p>{{ section.description }}</p>{% endif %}
+            {% if section.link %}</a>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <h1 class="text-center">Partners</h1>
+    <div class="items row row-centered">
+      {% for section in site.event.partners.sections %}
+        <div class="col-xs-12 col-sm-4 col-centered text-center">
+          <div class="item text-center">
+            {% if section.link %}<a href="{{ section.link }}">{% endif %}
+            {% if section.image %}<img src="{{ section.image }}" />{% endif %}
+            {% if section.description %}<p>{{ section.description }}</p>{% endif %}
+            {% if section.link %}</a>{% endif %}
           </div>
         </div>
       {% endfor %}
@@ -36,7 +51,6 @@ layout: default
         {% for item in site.event.faq %}
         <div class="question col-xs-12 col-sm-12">
           <h2>{{ item.question }}</h2>
-          <hr>
           {{ item.answer | markdownify }}
         </div>
         {% endfor %}
