@@ -19,6 +19,7 @@ tracking:
 # Let people connect & engage with you through social media.
 social:
   twitter_handle: "AstonHack"
+  facebook_handle: "astonhack"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
@@ -45,7 +46,7 @@ event:
 #        my_mlh:
 #          client_id:    "226feade92a87974d0b8e94fa2e559dcbc33720e378222ea16e2e6c9ca608ab5"
 #          redirect_uri: "https://astonhack.co.uk/success.html"
-        href: "#"
+        href: "https://www.eventbrite.co.uk/e/astonhack-2016-tickets-28388772583"
 #      - text: "Sponsor"
 #        href: "mailto:hack@astoncss.co.uk"
 

@@ -239,6 +239,16 @@ section {
   color: #fff;
 }
 
+.social {
+  font-size: 20pt;
+  margin-bottom: 25px;
+}
+
+.social a {
+  color: inherit;
+  padding: 0 5px;
+}
+
 .footer-goose img {
   position: absolute;
   width: 500px;
