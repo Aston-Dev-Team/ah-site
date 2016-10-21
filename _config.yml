@@ -54,8 +54,18 @@ event:
   # Sponsors
   sponsors:
     sections:
-#      - image: "images/sponsor1.png"
-      - description: "Soon to be announced!"
+      gold:
+        - image: "images/majestic-logo.png"
+          tier: "gold"
+          link: "https://majestic.com/"
+      silver:
+        - image: "images/accenture-logo.png"
+          tier: "silver"
+          link: "https://www.accenture.com/gb-en"
+      bronze:
+        - image: "images/btp-logo.jpg"
+          tier: "bronze"
+          link: "http://www.bostonteaparty.co.uk/"
 
   # Partners
   partners:
@@ -76,7 +86,7 @@ event:
         Nothing! Attending a hackathon is free! 😁
     - question: "Do I need to be a student to attend?"
       answer: >
-        Yes. Only students who are currently enrolled at a college/university or
+        Yes. Only students over the age of 18 who are currently enrolled at a college/university or
         have graduated within the past 12 months are eligible to attend as hackers.
     - question: "Where is the event?"
       answer: >

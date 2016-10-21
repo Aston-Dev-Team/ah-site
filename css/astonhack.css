@@ -171,6 +171,14 @@ section {
   padding: 10px;
 }
 
+.sponsors .item.gold img {
+  max-width: 360px;
+}
+
+.sponsors .item.silver img {
+  max-width: 300px;
+}
+
 .sponsors .item p {
   font-size: 20px;
 }

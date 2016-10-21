@@ -16,9 +16,33 @@ layout: default
   <div class="container">
     <h1 class="text-center">Sponsors</h1>
     <div class="items row row-centered">
-      {% for section in site.event.sponsors.sections %}
+      {% for section in site.event.sponsors.sections.gold %}
+        <div class="col-xs-12 col-sm-12 col-centered text-center">
+          <div class="item text-center {{ section.tier }}">
+            {% if section.link %}<a href="{{ section.link }}">{% endif %}
+            {% if section.image %}<img src="{{ section.image }}" />{% endif %}
+            {% if section.description %}<p>{{ section.description }}</p>{% endif %}
+            {% if section.link %}</a>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="items row row-centered">
+      {% for section in site.event.sponsors.sections.silver %}
+        <div class="col-xs-12 col-sm-6 col-centered text-center">
+          <div class="item text-center {{ section.tier }}">
+            {% if section.link %}<a href="{{ section.link }}">{% endif %}
+            {% if section.image %}<img src="{{ section.image }}" />{% endif %}
+            {% if section.description %}<p>{{ section.description }}</p>{% endif %}
+            {% if section.link %}</a>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="items row row-centered">
+      {% for section in site.event.sponsors.sections.bronze %}
         <div class="col-xs-12 col-sm-4 col-centered text-center">
-          <div class="item text-center">
+          <div class="item text-center {{ section.tier }}">
             {% if section.link %}<a href="{{ section.link }}">{% endif %}
             {% if section.image %}<img src="{{ section.image }}" />{% endif %}
             {% if section.description %}<p>{{ section.description }}</p>{% endif %}
