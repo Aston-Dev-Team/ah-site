@@ -18,7 +18,7 @@ layout: default
     <div class="items row row-centered">
       {% for section in site.event.sponsors.sections.gold %}
         <div class="col-xs-12 col-sm-12 col-centered text-center">
-          <div class="item text-center {{ section.tier }}">
+          <div class="item text-center gold">
             {% if section.link %}<a href="{{ section.link }}">{% endif %}
             {% if section.image %}<img src="{{ section.image }}" />{% endif %}
             {% if section.description %}<p>{{ section.description }}</p>{% endif %}
@@ -30,7 +30,7 @@ layout: default
     <div class="items row row-centered">
       {% for section in site.event.sponsors.sections.silver %}
         <div class="col-xs-12 col-sm-6 col-centered text-center">
-          <div class="item text-center {{ section.tier }}">
+          <div class="item text-center silver">
             {% if section.link %}<a href="{{ section.link }}">{% endif %}
             {% if section.image %}<img src="{{ section.image }}" />{% endif %}
             {% if section.description %}<p>{{ section.description }}</p>{% endif %}
@@ -42,7 +42,7 @@ layout: default
     <div class="items row row-centered">
       {% for section in site.event.sponsors.sections.bronze %}
         <div class="col-xs-12 col-sm-4 col-centered text-center">
-          <div class="item text-center {{ section.tier }}">
+          <div class="item text-center bronze">
             {% if section.link %}<a href="{{ section.link }}">{% endif %}
             {% if section.image %}<img src="{{ section.image }}" />{% endif %}
             {% if section.description %}<p>{{ section.description }}</p>{% endif %}
