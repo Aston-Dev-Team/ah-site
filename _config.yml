@@ -66,6 +66,10 @@ event:
         - image: "images/btp-logo.jpg"
           tier: "bronze"
           link: "http://www.bostonteaparty.co.uk/"
+      bronze:
+        - image: "images/dolce-logo.jpg"
+          tier: "bronze"
+          link: "https://dolcelounge-birmingham.co.uk/"
 
   # Partners
   partners:
