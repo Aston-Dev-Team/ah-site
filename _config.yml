@@ -74,6 +74,8 @@ event:
         link: "https://mlh.io/"
       - image: "images/acss-logo.png"
         link: "http://astoncss.co.uk/"
+      - image: "images/eas-logo.png"
+        link: "http://www.aston.ac.uk/eas/"
 
   # Frequently asked questions.
   faq:
