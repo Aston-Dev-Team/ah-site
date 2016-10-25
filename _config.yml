@@ -56,19 +56,14 @@ event:
     sections:
       gold:
         - image: "images/majestic-logo.png"
-          tier: "gold"
           link: "https://majestic.com/"
       silver:
         - image: "images/accenture-logo.png"
-          tier: "silver"
           link: "https://www.accenture.com/gb-en"
       bronze:
         - image: "images/btp-logo.jpg"
-          tier: "bronze"
           link: "http://www.bostonteaparty.co.uk/"
-      bronze:
         - image: "images/dolce-logo.jpg"
-          tier: "bronze"
           link: "https://dolcelounge-birmingham.co.uk/"
 
   # Partners
