@@ -62,6 +62,8 @@ event:
           link: "https://www.accenture.com/gb-en"
         - image: "images/crate-logo.png"
           link: "https://crate.io/"
+        - image: "images/phoebus-logo.png"
+          link: "http://www.phoebus.co.uk/"
       bronze:
         - image: "images/btp-logo.jpg"
           link: "http://www.bostonteaparty.co.uk/"
