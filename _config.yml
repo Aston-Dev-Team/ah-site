@@ -97,9 +97,9 @@ event:
       answer: >
         Yes. Only students over the age of 18 who are currently enrolled at a college/university or
         have graduated within the past 12 months are eligible to attend as hackers.
-    - question: "Where is the event?"
+    - question: "Where/when is the event?"
       answer: >
-        Check in will be in room MB404 at Aston University, Aston Triangle, Birmingham, B4 7ET. Don't worry, we'll have signs so you don't get lost in the labyrinth that is Aston main building!
+        Check in will be between 10am and 11am in the main foyer of Aston University, Aston Triangle, Birmingham, B4 7ET. Don't worry, we'll have signs so you don't get lost in the labyrinth that is Aston main building!
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
