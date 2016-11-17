@@ -65,6 +65,8 @@ event:
         - image: "images/phoebus-logo.jpg"
           link: "http://www.phoebus.co.uk/"
       bronze:
+        - image: "images/stickermule-logo.png"
+          link: "https://www.stickermule.com/uk"
         - image: "images/btp-logo.jpg"
           link: "http://www.bostonteaparty.co.uk/"
         - image: "images/dolce-logo.jpg"
